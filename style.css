@@ -1,0 +1,96 @@
+*{
+    padding: 0%;
+     margin:0%;
+     box-sizing: border-box;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8em;
+    color:#666;
+    height: 100%;
+}
+.bg-image1{
+    background-image: url(images/image1.png);
+    height: 100%;
+}
+.bg-image2{
+    background-image: url(images/image2.png);
+    height: 25rem;
+}
+.bg-image3{
+    background-image: url(images/image3.png);
+    height: 25rem;
+}
+.Section1{
+  max-height: 21.875rem;
+}
+.Section2{
+  max-height: 18.75rem;
+}
+
+.bg-image1,
+.bg-image2,
+.bg-image3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container{
+    position: absolute;
+    max-height: 15.625rem;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 1.6875rem;
+  letter-spacing: .5rem;
+  text-transform: uppercase;
+}
+.container1{
+  position: absolute;
+  max-height: 12.5rem;
+top: 50%;
+width: 100%;
+text-align: center;
+color: black;
+font-size: 1.6875rem;
+letter-spacing: .5rem;
+text-transform: uppercase;
+}
+.text-bg {
+    background-color: #313534;
+    color: #fff;
+    padding: 1.25rem;
+  } 
+  
+.heading{
+  max-height: 6.25rem;
+  text-align: center;
+  padding-top: 1.25rem;
+  font-size: 1.875rem;
+}
+.text{
+  max-height:15.625rem;
+  padding:1.5625rem;
+  padding-top: 0rem;
+  text-align: center;
+}
+.text-bl{
+  background-color: #313534;
+  color: #fff;
+  max-height:12.5rem;
+  padding:1.5625rem;
+  padding-top: 0rem;
+  text-align: center;
+}
+.heading-bl{
+  background-color: #313534;
+  color:white;
+  max-height: 6.25rem;
+  text-align: center;
+  padding-top: 1.5625rem;
+  font-size: 1.875rem;
+}
+
